@@ -1,0 +1,40 @@
+{
+  "name": "microservices-demo-front-end",
+  "version": "0.0.1",
+  "description": "Front end for microservices demo application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.consulting.redhat.com/consulting-mw-redhat-mx/microservices-demo/front-end"
+  },
+  "contributors": [
+    "Israel Ortiz <iortizfe@redhat.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.1",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "finalhandler": "^1.1.2",
+    "keycloak-connect": "^12.0.4",
+    "morgan": "^1.7.0",
+    "prom-client": "^6.3.0",
+    "request": "^2.72.0",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.3.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^8.3.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "mongodb": "^3.1.13",
+    "sinon": "^1.17.5"
+  }
+}
