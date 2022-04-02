@@ -13,7 +13,7 @@
 
     const keycloak = config.getKeycloak();
 
-    app.get('/login', keycloak.protect(), login);
+    app.get('/login', keycloak.protect('admin'), login);
 
     function login(req, res) {
 
